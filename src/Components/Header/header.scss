@@ -1,3 +1,9 @@
-h1 {
-    color: red;
+.header {
+    
+    &_title {
+        text-align: center;
+        color: red;
+        padding: 3em;
+        color: #b36700;
+    }
 }
