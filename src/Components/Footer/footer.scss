@@ -1,0 +1,27 @@
+.footer {
+
+    &_box {
+    background-color: black;
+    padding: 0.8em;
+    }
+
+    &_title {
+        text-align: center;
+        padding: 1em;
+        color: aqua;
+    }
+    &_box {
+        display: flex;
+        justify-content: space-around;
+    }
+    &_liste {
+        text-decoration: none;
+    }
+    &_liste li {
+        color: red;
+        padding: 0.5em;
+    }
+    &_liste :hover {
+        color: blue;
+    }
+}
