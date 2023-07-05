@@ -1,9 +1,15 @@
 .header {
     
     &_title {
+        font-size: 4em;
         text-align: center;
         color: red;
-        padding: 3em;
+        padding: 1em;
         color: #b36700;
+    }
+    &_description {
+        text-align: center;
+        color: white;
+        font-style: italic;
     }
 }
